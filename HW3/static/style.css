@@ -1,4 +1,4 @@
-/* Overall design */
+/* ===== GLOBAL ===== */
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     color: #333;
 }
 
-/* Para sa form */
+/* ===== FORM PAGE ===== */
 .container {
     width: 420px;
     margin: 70px auto;
@@ -75,7 +75,7 @@ button:hover {
     background: linear-gradient(90deg, #0056b3, #0099cc);
 }
 
-/* Para sa profile */
+/* ===== PROFILE PAGE ===== */
 .profile-wrapper {
     display: flex;
     flex-direction: column;
@@ -138,4 +138,10 @@ button:hover {
 
 .back-btn:hover {
     text-decoration: underline;
+}
+
+/* konting animation */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
